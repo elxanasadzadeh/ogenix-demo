@@ -85,13 +85,18 @@ header{
             width: 757px;
             height: 100%;
             ul{
+                width: 100%;
+                height: 100%;
                 list-style: none;
                 display: flex;
+               
                 li{
-                    
+                    padding: 13px 30px;
                     a{
                         text-decoration: none;
-                       
+                        color: #7D8978;
+                        font-family: sans-serif;
+                        cursor: pointer;
                     }
                 }
             }
