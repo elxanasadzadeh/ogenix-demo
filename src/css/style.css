@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.previewHeader {
+  font-size: 12px;
+  height: 54px;
+  background-color: #262626;
+  z-index: 100;
+  line-height: 54px;
+  position: relative;
+  border-bottom: black solid;
+  border-width: 1px;
+}
+.previewHeader .previewHeaderLogo {
+  background-image: url(../images/envato_market.png);
+  width: 152px;
+  height: 18px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background-size: 152px 18px;
+}
+.previewHeader .previewHeaderButton {
+  width: 93px;
+  height: 33px;
+  border-radius: 4px;
+  background-color: #82b440;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.previewHeader .previewHeaderButton h3 {
+  color: white;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-align: center; */
+}
+
+header {
+  width: 100%;
+  height: 136px;
+  display: flex;
+}
+header .logoDiv {
+  width: 13.2%;
+  height: 136px;
+  background-color: #305721;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  cursor: pointer;
+}
+header .mainDiv {
+  width: 100%;
+  height: 136px;
+}
+header .mainDiv .firstLine {
+  width: 100%;
+  height: 45px;
+  background-color: #305721;
+  padding-left: 60px;
+  padding-right: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .mainDiv .firstLine .socialNetworksDiv {
+  width: 528px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+header .mainDiv .firstLine .socialNetworksDiv p {
+  color: #91A589;
+  font-size: 14px;
+}
+header .mainDiv .firstLine .socialNetworksDiv ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  height: 100%;
+  width: 196px;
+  margin-left: 40px;
+  gap: 22px;
+  background-color: #223D17;
+}
+header .mainDiv .firstLine .socialNetworksDiv ul a {
+  cursor: pointer;
+}
+header .mainDiv .firstLine .socialNetworksDiv ul a i {
+  color: #fff;
+  font-size: 13px;
+}
+header .mainDiv .firstLine ul {
+  list-style: none;
+  display: flex;
+}
+header .mainDiv .firstLine ul li {
+  cursor: pointer;
+}
+header .mainDiv .firstLine ul li .number {
+  color: #91A589;
+  font-size: 14px;
+}
+header .mainDiv .firstLine ul li .mail {
+  color: #91A589;
+  font-size: 18px;
+  margin-left: 40px;
+}
+header .mainDiv .secondLine {
+  width: 100%;
+  height: 91px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 35px;
+  padding-right: 70px;
+}
+header .mainDiv .secondLine .navDiv {
+  width: 757px;
+  height: 100%;
+}
+header .mainDiv .secondLine .navDiv ul {
+  list-style: none;
+  display: flex;
+}
+header .mainDiv .secondLine .navDiv ul li a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

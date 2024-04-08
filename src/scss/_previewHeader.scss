@@ -1,0 +1,44 @@
+
+.previewHeader {
+
+    font-size: 12px;
+    height: 54px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+    position: relative;
+    border-bottom: black solid;
+    border-width: 1px;
+
+    .previewHeaderLogo {
+        background-image: url(../images/envato_market.png);
+        width: 152px;
+        height: 18px;
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        background-size: 152px 18px;
+
+    }
+
+    .previewHeaderButton {
+        width: 93px;
+        height: 33px;
+        border-radius: 4px;
+        background-color: #82b440;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            color: white;
+            font-size: 13px;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            /* text-align: center; */
+
+        }
+    }
+}
